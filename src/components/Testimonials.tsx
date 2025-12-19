@@ -18,7 +18,7 @@ const testimonials = [
     quote:
       "Onde eu trabalho era uma correria, ninguém sabia onde estava nada e a gente perdia venda por falta de organização. O curso de Processos abriu minha mente. Comecei a criar planilhas e organizar o fluxo de trabalho. O dono viu a diferença no fim do mês e me promoveu a encarregada.",
     name: "Roberta Maia",
-    course: "Processos Gerenciais",
+    course: "Gestão de Recursos Humanos",
     photo: robertaFoto,
   },
   {
@@ -26,7 +26,7 @@ const testimonials = [
     quote:
       "Cansado de ser o 'cara do suporte' que todo mundo chama quando o Wi-Fi cai. Eu sabia resolver problema técnico, mas não sabia gerenciar equipe nem projeto, por isso meu salário não subia. A faculdade me deu a postura de gestor. Hoje lidero o time de TI e não sou mais quem passa cabo, sou quem decide a estratégia.",
     name: "Paulo Silva",
-    course: "Gestão de Recursos Humanos",
+    course: "Gestão da Tecnologia da Informação",
     photo: pauloFoto,
   },
 ];
