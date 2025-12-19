@@ -1,7 +1,7 @@
 import { Quote } from "lucide-react";
-import afonsoFoto from "@/assets/afonso-souza.png";
-import jociaraFoto from "@/assets/jociara-pereira.png";
-import carlosFoto from "@/assets/carlos-soares.png";
+import robertaFoto from "@/assets/roberta-maia.png";
+import pauloFoto from "@/assets/paulo-silva.png";
+import joaoFoto from "@/assets/joao-lima.png";
 import { useState, useEffect } from "react";
 
 const testimonials = [
@@ -9,25 +9,25 @@ const testimonials = [
     id: 1,
     quote:
       "Eu sempre fui o 'menino do computador' da família, mas isso não paga boleto. O mercado de TI tá pagando bem, só que exigem técnica. No curso eu aprendi a programar de verdade, mão na massa. Antes de me formar já consegui meu estágio e hoje trabalho de home office ganhando o que nunca imaginei.",
-    name: "Afonso Souza",
+    name: "João Lima",
     course: "Análise e Desenvolvimento de Sistemas",
-    photo: afonsoFoto,
+    photo: joaoFoto,
   },
   {
     id: 2,
     quote:
       "Onde eu trabalho era uma correria, ninguém sabia onde estava nada e a gente perdia venda por falta de organização. O curso de Processos abriu minha mente. Comecei a criar planilhas e organizar o fluxo de trabalho. O dono viu a diferença no fim do mês e me promoveu a encarregada.",
-    name: "Jociara Pereira",
+    name: "Roberta Maia",
     course: "Processos Gerenciais",
-    photo: jociaraFoto,
+    photo: robertaFoto,
   },
   {
     id: 3,
     quote:
       "Cansado de ser o 'cara do suporte' que todo mundo chama quando o Wi-Fi cai. Eu sabia resolver problema técnico, mas não sabia gerenciar equipe nem projeto, por isso meu salário não subia. A faculdade me deu a postura de gestor. Hoje lidero o time de TI e não sou mais quem passa cabo, sou quem decide a estratégia.",
-    name: "Carlos Soares",
+    name: "Paulo Silva",
     course: "Gestão de Recursos Humanos",
-    photo: carlosFoto,
+    photo: pauloFoto,
   },
 ];
 
