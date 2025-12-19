@@ -78,8 +78,8 @@ const Benefits = () => {
                     rel="noopener noreferrer"
                   >
                     <Button
-                      size="lg"
-                      className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xs md:text-lg px-4 md:px-12 py-3 md:py-6 rounded-full shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+                      size="default"
+                      className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xs md:text-base px-4 md:px-8 py-2 md:py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
                     >
                       COMECE SUA GRADUAÇÃO AGORA!
                       <ArrowRight className="ml-1 md:ml-2 h-3 w-3 md:h-5 md:w-5" />
