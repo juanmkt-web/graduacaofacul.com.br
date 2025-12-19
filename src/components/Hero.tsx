@@ -1,9 +1,18 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Award, Users } from "lucide-react";
+import heroBackground from "@/assets/hero-background.jpg";
+
 const Hero = () => {
   return (
-    <section className="relative flex items-center overflow-hidden gradient-animated pt-[72px] pb-8 md:pt-[112px] md:pb-16">
-      <div className="absolute inset-0 bg-black/10"></div>
+    <section 
+      className="relative flex items-center overflow-hidden pt-[72px] pb-8 md:pt-[112px] md:pb-16"
+      style={{
+        backgroundImage: `url(${heroBackground})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center right',
+      }}
+    >
+      <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/70 to-transparent"></div>
       <div className="absolute bottom-0 left-0 right-0 h-10 md:h-16 lg:h-20">
         <svg
           xmlns="http://www.w3.org/2000/svg"
