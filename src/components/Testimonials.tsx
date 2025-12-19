@@ -8,7 +8,7 @@ const testimonials = [
   {
     id: 1,
     quote:
-      "Eu sempre fui o 'menino do computador' da família, mas isso não paga boleto. O mercado de TI tá pagando bem, só que exigem técnica. No curso eu aprendi a programar de verdade, mão na massa. Antes de me formar já consegui meu estágio e hoje trabalho de home office ganhando o que nunca imaginei.",
+      "Eu tentava aprender programar vendo vídeo no YouTube, mas me perdia. O curso me deu o caminho certo, do básico ao avançado. No terceiro período já passei num processo seletivo. Hoje sou Dev Júnior, trabalho de casa e finalmente tenho um salário digno.",
     name: "João Lima",
     course: "Análise e Desenvolvimento de Sistemas",
     photo: joaoFoto,
@@ -16,7 +16,7 @@ const testimonials = [
   {
     id: 2,
     quote:
-      "Onde eu trabalho era uma correria, ninguém sabia onde estava nada e a gente perdia venda por falta de organização. O curso de Processos abriu minha mente. Comecei a criar planilhas e organizar o fluxo de trabalho. O dono viu a diferença no fim do mês e me promoveu a encarregada.",
+      "Eu trabalhava no administrativo, mas morria de medo de errar cálculo de férias e rescisão, porque a lei é complicada. A faculdade me deu segurança total na legislação trabalhista. Quando a vaga de Analista de RH abriu, eu estava pronta e fui a escolhida.",
     name: "Roberta Maia",
     course: "Gestão de Recursos Humanos",
     photo: robertaFoto,
@@ -24,7 +24,7 @@ const testimonials = [
   {
     id: 3,
     quote:
-      "Cansado de ser o 'cara do suporte' que todo mundo chama quando o Wi-Fi cai. Eu sabia resolver problema técnico, mas não sabia gerenciar equipe nem projeto, por isso meu salário não subia. A faculdade me deu a postura de gestor. Hoje lidero o time de TI e não sou mais quem passa cabo, sou quem decide a estratégia.",
+      "Ser técnico é bom, mas tem um teto salarial. Eu queria subir de nível, parar de formatar máquina e começar a gerenciar projetos. A graduação em Gestão de TI mudou minha visão. Hoje converso de igual para igual com a diretoria e lidero toda a infraestrutura da empresa.",
     name: "Paulo Silva",
     course: "Gestão da Tecnologia da Informação",
     photo: pauloFoto,
