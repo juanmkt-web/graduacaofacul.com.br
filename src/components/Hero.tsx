@@ -27,12 +27,12 @@ const Hero = () => {
                 textShadow: "2px 2px 8px rgba(0, 0, 0, 0.2)",
               }}
             >
-              A NOVA ERA DIGITAL<span className="text-primary"> EXIGE UMA NOVA</span> FORMAÇÃO SUPERIOR.
+              SEU CURRÍCULO<span className="text-primary"> POTENCIALIZADO</span> PELA INTELIGÊNCIA ARTIFICIAL.
             </h1>
 
             <p className="text-base md:text-xl text-white/90 leading-relaxed mb-5 md:mb-8">
-              Esqueça o ensino do passado. Aqui você tem diploma rápido e foco total em IA para aproveitar as vagas que
-              pagam os melhores salários hoje.
+              Diplomas do passado não garantem mais vagas. Conquiste sua Graduação ágil com Certificação em IA e esteja
+              pronto para o que as empresas realmente buscam hoje.
             </p>
 
             <div className="mb-5 md:mb-8 flex justify-center md:justify-start">
@@ -45,7 +45,7 @@ const Hero = () => {
                   size="lg"
                   className="bg-primary text-primary-foreground hover:bg-primary/80 font-bold text-sm md:text-lg px-6 md:px-10 py-5 md:py-7 rounded-full shadow-xl hover:shadow-2xl transition-all hover:-translate-y-1 animate-pulse-cta w-full md:w-auto"
                 >
-                  NÃO QUERO FICAR PARA TRÁS <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
+                  GARANTIR MEU FUTURO <ArrowRight className="ml-2 h-4 w-4 md:h-5 md:w-5" />
                 </Button>
               </a>
             </div>
