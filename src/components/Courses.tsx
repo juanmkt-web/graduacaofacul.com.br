@@ -303,7 +303,7 @@ const CourseCard = ({ course, index }: { course: Course; index: number }) => {
             </p>
             <p className="text-gray-400 line-through text-sm">{course.regularPrice}/Mês</p>
           </div>
-          <span className="text-[10px] bg-red-500 text-white px-2 py-0.5 rounded font-semibold inline-block">
+          <span className="text-[10px] bg-gradient-to-r from-emerald-500 to-teal-400 text-white px-2 py-0.5 rounded font-semibold inline-block">
             ATÉ O FINAL DO CURSO
           </span>
         </div>
