@@ -10,27 +10,27 @@ const professors = [
   {
     name: "Dra. Débora Maria Moreno Luzia",
     image: deboraLuzia,
-    lattesUrl: "http://lattes.cnpq.br/2345678901234568",
+    lattesUrl: "http://lattes.cnpq.br/4668535194933989",
   },
   {
     name: "Me. Maurício Ricardo Soares",
     image: mauricioRicardo,
-    lattesUrl: "http://lattes.cnpq.br/1234567890123457",
+    lattesUrl: "http://lattes.cnpq.br/8461273296060802",
   },
   {
     name: "Dra. Vera Lúcia da Silva Farias",
     image: veraLucia,
-    lattesUrl: "http://lattes.cnpq.br/8234567890123456",
+    lattesUrl: "http://lattes.cnpq.br/6885839820247204",
   },
   {
     name: "Me. Sérgio Ferreira da Silva",
     image: sergioFerreira,
-    lattesUrl: "http://lattes.cnpq.br/4567890123456780",
+    lattesUrl: "http://lattes.cnpq.br/3242048483981824",
   },
   {
     name: "Ma. Paola Marie Vitaca Rodrigues",
     image: paolaMarie,
-    lattesUrl: "http://lattes.cnpq.br/3456789012345679",
+    lattesUrl: "http://lattes.cnpq.br/8880858445724289",
   },
 ];
 
