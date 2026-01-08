@@ -8,9 +8,9 @@ import sergioFerreira from "@/assets/sergio-ferreira-silva.avif";
 
 const professors = [
   {
-    name: "Dra. Vera Lúcia da Silva Farias",
-    image: veraLucia,
-    lattesUrl: "http://lattes.cnpq.br/8234567890123456",
+    name: "Dra. Débora Maria Moreno Luzia",
+    image: deboraLuzia,
+    lattesUrl: "http://lattes.cnpq.br/2345678901234568",
   },
   {
     name: "Me. Maurício Ricardo Soares",
@@ -18,19 +18,19 @@ const professors = [
     lattesUrl: "http://lattes.cnpq.br/1234567890123457",
   },
   {
-    name: "Dra. Débora Maria Moreno Luzia",
-    image: deboraLuzia,
-    lattesUrl: "http://lattes.cnpq.br/2345678901234568",
-  },
-  {
-    name: "Ma. Paola Marie Vitaca Rodrigues",
-    image: paolaMarie,
-    lattesUrl: "http://lattes.cnpq.br/3456789012345679",
+    name: "Dra. Vera Lúcia da Silva Farias",
+    image: veraLucia,
+    lattesUrl: "http://lattes.cnpq.br/8234567890123456",
   },
   {
     name: "Me. Sérgio Ferreira da Silva",
     image: sergioFerreira,
     lattesUrl: "http://lattes.cnpq.br/4567890123456780",
+  },
+  {
+    name: "Ma. Paola Marie Vitaca Rodrigues",
+    image: paolaMarie,
+    lattesUrl: "http://lattes.cnpq.br/3456789012345679",
   },
 ];
 
