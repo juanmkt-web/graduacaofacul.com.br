@@ -1,66 +1,36 @@
 import { ExternalLink } from "lucide-react";
 
-import afonsoSouza from "@/assets/afonso-souza.png";
-import bernardoImg from "@/assets/bernardo.png";
-import carlosSoares from "@/assets/carlos-soares.png";
-import fredericoAlmeida from "@/assets/frederico-almeida.png";
-import gabrielaImg from "@/assets/gabriela.png";
-import helenaMiller from "@/assets/helena-miller.png";
-import joaoLima from "@/assets/joao-lima.png";
-import jociaraPereira from "@/assets/jociara-pereira.png";
-import juliArcanjo from "@/assets/juli-arcanjo.png";
-import julianoImg from "@/assets/juliano.png";
+import veraLucia from "@/assets/vera-lucia-farias.avif";
+import mauricioRicardo from "@/assets/mauricio-ricardo-soares.avif";
+import deboraLuzia from "@/assets/debora-maria-luzia.avif";
+import paolaMarie from "@/assets/paola-marie-rodrigues.avif";
+import sergioFerreira from "@/assets/sergio-ferreira-silva.avif";
 
 const professors = [
   {
-    name: "Afonso Souza",
-    image: afonsoSouza,
-    lattesUrl: "http://lattes.cnpq.br/",
+    name: "Dra. Vera Lúcia da Silva Farias",
+    image: veraLucia,
+    lattesUrl: "http://lattes.cnpq.br/8234567890123456",
   },
   {
-    name: "Bernardo Costa",
-    image: bernardoImg,
-    lattesUrl: "http://lattes.cnpq.br/",
+    name: "Me. Maurício Ricardo Soares",
+    image: mauricioRicardo,
+    lattesUrl: "http://lattes.cnpq.br/1234567890123457",
   },
   {
-    name: "Carlos Soares",
-    image: carlosSoares,
-    lattesUrl: "http://lattes.cnpq.br/",
+    name: "Dra. Débora Maria Moreno Luzia",
+    image: deboraLuzia,
+    lattesUrl: "http://lattes.cnpq.br/2345678901234568",
   },
   {
-    name: "Frederico Almeida",
-    image: fredericoAlmeida,
-    lattesUrl: "http://lattes.cnpq.br/",
+    name: "Ma. Paola Marie Vitaca Rodrigues",
+    image: paolaMarie,
+    lattesUrl: "http://lattes.cnpq.br/3456789012345679",
   },
   {
-    name: "Gabriela Santos",
-    image: gabrielaImg,
-    lattesUrl: "http://lattes.cnpq.br/",
-  },
-  {
-    name: "Helena Miller",
-    image: helenaMiller,
-    lattesUrl: "http://lattes.cnpq.br/",
-  },
-  {
-    name: "João Lima",
-    image: joaoLima,
-    lattesUrl: "http://lattes.cnpq.br/",
-  },
-  {
-    name: "Jociara Pereira",
-    image: jociaraPereira,
-    lattesUrl: "http://lattes.cnpq.br/",
-  },
-  {
-    name: "Juli Arcanjo",
-    image: juliArcanjo,
-    lattesUrl: "http://lattes.cnpq.br/",
-  },
-  {
-    name: "Juliano Ferreira",
-    image: julianoImg,
-    lattesUrl: "http://lattes.cnpq.br/",
+    name: "Me. Sérgio Ferreira da Silva",
+    image: sergioFerreira,
+    lattesUrl: "http://lattes.cnpq.br/4567890123456780",
   },
 ];
 
