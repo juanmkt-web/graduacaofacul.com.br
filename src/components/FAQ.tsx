@@ -26,6 +26,11 @@ const faqItems = [
     answer:
       "Sim, aceitamos transferências de outras instituições de ensino superior. As disciplinas cursadas podem ser aproveitadas mediante análise curricular, reduzindo o tempo de conclusão do curso.",
   },
+  {
+    question: "Quais são as modalidades disponíveis?",
+    answer:
+      "Oferecemos modalidades EaD (100% online) e semipresencial, proporcionando flexibilidade para atender às diferentes necessidades dos nossos alunos. Escolha a opção que melhor se adapta à sua rotina!",
+  },
 ];
 
 const FAQ = () => {
