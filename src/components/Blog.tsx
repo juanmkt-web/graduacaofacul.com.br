@@ -1,53 +1,53 @@
 import { Eye, MessageSquare, Heart } from "lucide-react";
 
-import cursoAdministracao from "@/assets/curso-administracao.jpg";
-import cursoMarketing from "@/assets/curso-marketing.jpg";
-import cursoGestao from "@/assets/curso-gestao.jpg";
-import cursoLogistica from "@/assets/curso-logistica.jpg";
+import blog1 from "@/assets/blog-1.webp";
+import blog2 from "@/assets/blog-2.webp";
+import blog3 from "@/assets/blog-3.webp";
+import blog4 from "@/assets/blog-4.webp";
 
 const blogPosts = [
   {
-    title: "Como escolher a graduação ideal para sua carreira",
-    author: "Prof. Carlos Silva",
-    date: "15 Jan 2025",
-    readTime: "5 min",
-    image: cursoAdministracao,
-    views: "2.3k",
-    comments: "45",
-    likes: "128",
+    title: "Mitos e Verdades sobre o Ensino a Distância da FASUL: Como funciona e suas vantagens para sua carreira?",
+    author: "Profª. Débora",
+    date: "26 de dez. de 2025",
+    readTime: "8 min de leitura",
+    image: blog1,
+    views: "6821",
+    comments: "0",
+    likes: "418",
     url: "#",
   },
   {
-    title: "Tendências do mercado de trabalho em 2025",
-    author: "Dra. Maria Santos",
-    date: "12 Jan 2025",
-    readTime: "8 min",
-    image: cursoMarketing,
-    views: "1.8k",
-    comments: "32",
-    likes: "95",
+    title: "Guia Completo do Vestibular ao Diploma e Suas Oportunidades de Carreira",
+    author: "Prof. Maurício",
+    date: "26 de dez. de 2025",
+    readTime: "11 min de leitura",
+    image: blog2,
+    views: "7534",
+    comments: "0",
+    likes: "502",
     url: "#",
   },
   {
-    title: "Dicas para conciliar trabalho e estudos EaD",
-    author: "Prof. João Lima",
-    date: "10 Jan 2025",
-    readTime: "6 min",
-    image: cursoGestao,
-    views: "3.1k",
-    comments: "67",
-    likes: "156",
+    title: "Não Estude no Escuro: Por Que Saber QUEM São Seus Professores Define o Valor do Seu Diploma FASUL",
+    author: "Profª. Vera Lúcia",
+    date: "26 de dez. de 2025",
+    readTime: "5 min de leitura",
+    image: blog3,
+    views: "4987",
+    comments: "0",
+    likes: "311",
     url: "#",
   },
   {
-    title: "A importância da gestão de tempo na graduação",
-    author: "Profa. Ana Costa",
-    date: "08 Jan 2025",
-    readTime: "4 min",
-    image: cursoLogistica,
-    views: "1.5k",
-    comments: "28",
-    likes: "72",
+    title: "A Escolha Inteligente para o Seu Futuro com Nota Máxima no MEC e Preço Fixo no EaD",
+    author: "Prof. Maurício",
+    date: "26 de dez. de 2025",
+    readTime: "6 min de leitura",
+    image: blog4,
+    views: "6210",
+    comments: "0",
+    likes: "387",
     url: "#",
   },
 ];
