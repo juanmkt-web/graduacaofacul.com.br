@@ -17,11 +17,6 @@ const faqItems = [
       "Sim! A FASUL é uma instituição com nota 5 no MEC, a nota máxima de avaliação. Todos os nossos diplomas são reconhecidos nacionalmente e têm a mesma validade de cursos presenciais.",
   },
   {
-    question: "Como funcionam as aulas na modalidade EaD?",
-    answer:
-      "As aulas são 100% online, com acesso a videoaulas, materiais didáticos, fóruns de discussão e suporte de tutores. Você estuda no seu ritmo, com flexibilidade de horários e acesso 24 horas à plataforma.",
-  },
-  {
     question: "Quais são as formas de pagamento disponíveis?",
     answer:
       "Oferecemos diversas formas de pagamento: boleto bancário, cartão de crédito (com parcelamento), PIX e débito automático. Também temos programas de bolsas e descontos especiais.",
@@ -30,11 +25,6 @@ const faqItems = [
     question: "Posso transferir meu curso de outra instituição?",
     answer:
       "Sim, aceitamos transferências de outras instituições de ensino superior. As disciplinas cursadas podem ser aproveitadas mediante análise curricular, reduzindo o tempo de conclusão do curso.",
-  },
-  {
-    question: "Os cursos incluem estágio obrigatório?",
-    answer:
-      "Depende do curso escolhido. Alguns cursos exigem estágio supervisionado ou atividades práticas. Nossa equipe de apoio auxilia na busca por oportunidades de estágio em empresas parceiras.",
   },
 ];
 
