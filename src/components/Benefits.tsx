@@ -24,11 +24,11 @@ const benefits = [
 ];
 const Benefits = () => {
   return (
-    <section className="py-8 md:py-24 bg-white">
+    <section className="benefits-section">
       <div className="container mx-auto px-3 md:px-4">
-        <div className="relative overflow-hidden rounded-xl md:rounded-3xl shadow-2xl bg-[#1e2842]">
+        <div className="benefits-card relative overflow-hidden rounded-xl md:rounded-3xl shadow-2xl">
           <div className="px-3 py-5 md:px-8 md:py-16 relative z-10">
-            <div className="grid lg:grid-cols-2 gap-4 md:gap-12 items-center">
+            <div className="benefits-grid">
               {/* Left side - Main Title */}
               <div className="animate-fade-in text-center md:text-left">
                 <h2 className="text-xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold text-white mb-2 md:mb-6 leading-tight">

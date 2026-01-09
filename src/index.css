@@ -205,6 +205,52 @@ All colors MUST be HSL.
 }
 
 /* ============================================ */
+/* BENEFITS SECTION STYLES                     */
+/* ============================================ */
+
+.benefits-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .benefits-section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.benefits-card {
+  background-color: #041029;
+  background-image: 
+    radial-gradient(ellipse at 12% 88%, rgba(12, 96, 124, 0.65) 0, rgba(12, 96, 124, 0.25) 32%, rgba(4, 16, 41, 0) 60%),
+    radial-gradient(ellipse at 94% 20%, rgba(103, 41, 166, 0.65) 0, rgba(103, 41, 166, 0.25) 32%, rgba(4, 16, 41, 0) 56%),
+    linear-gradient(180deg, #050d21 0, #040b1a 55%, #020711 100%);
+  background-repeat: no-repeat;
+  background-size: 150% 150%, 130% 130%, cover;
+  background-position: left bottom, right top, center;
+}
+
+.benefits-grid {
+  display: grid;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .benefits-grid {
+    gap: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .benefits-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* ============================================ */
 /* FOOTER STYLES                               */
 /* ============================================ */
 
