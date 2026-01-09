@@ -78,20 +78,18 @@ const Testimonials = () => {
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
-          <div
-            className="glass-effect rounded-2xl md:rounded-3xl p-5 md:p-8 lg:p-12 shadow-2xl animate-fade-in"
+          <a
+            href={currentTestimonial.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="glass-effect rounded-2xl md:rounded-3xl p-5 md:p-8 lg:p-12 shadow-2xl animate-fade-in block hover:opacity-90 transition-opacity cursor-pointer"
             key={currentTestimonial.id}
           >
             <Quote className="h-8 w-8 md:h-12 md:w-12 text-cyan-light mb-3 md:mb-6" />
             <p className="text-base md:text-xl lg:text-2xl text-white mb-5 md:mb-8 leading-relaxed italic font-light">
               "{currentTestimonial.quote}"
             </p>
-            <a
-              href={currentTestimonial.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-4 md:gap-6 border-t border-white/20 pt-5 md:pt-8 hover:opacity-80 transition-opacity"
-            >
+            <div className="flex items-center gap-4 md:gap-6 border-t border-white/20 pt-5 md:pt-8">
               <img
                 src={currentTestimonial.photo}
                 alt={currentTestimonial.name}
@@ -100,8 +98,8 @@ const Testimonials = () => {
               <div className="text-white">
                 <p className="font-bold text-lg md:text-xl">{currentTestimonial.name}</p>
               </div>
-            </a>
-          </div>
+            </div>
+          </a>
 
           <div className="flex justify-center gap-2 mt-6">
             {testimonials.map((_, index) => (
@@ -120,20 +118,18 @@ const Testimonials = () => {
         {/* Grid de 3 cards para telas >= 1200px */}
         <div className="hidden desktop:grid grid-cols-3 gap-6 ultrawide:gap-7 max-w-7xl mx-auto">
           {testimonials.map((testimonial) => (
-            <div
+            <a
               key={testimonial.id}
-              className="glass-effect rounded-2xl p-5 ultrawide:p-[22px] shadow-2xl animate-fade-in flex flex-col h-full"
+              href={testimonial.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="glass-effect rounded-2xl p-5 ultrawide:p-[22px] shadow-2xl animate-fade-in flex flex-col h-full hover:opacity-90 transition-opacity cursor-pointer"
             >
               <Quote className="h-6 w-6 ultrawide:h-7 ultrawide:w-7 text-cyan-light mb-3 ultrawide:mb-[13px]" />
               <p className="text-sm wide:text-[17px] ultrawide:text-[19px] text-white mb-4 ultrawide:mb-[18px] leading-relaxed italic font-light flex-grow">
                 "{testimonial.quote}"
               </p>
-              <a
-                href={testimonial.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-3 ultrawide:gap-[13px] border-t border-white/20 pt-4 ultrawide:pt-[18px] hover:opacity-80 transition-opacity"
-              >
+              <div className="flex items-center gap-3 ultrawide:gap-[13px] border-t border-white/20 pt-4 ultrawide:pt-[18px]">
                 <img
                   src={testimonial.photo}
                   alt={testimonial.name}
@@ -142,8 +138,8 @@ const Testimonials = () => {
                 <div className="text-white">
                   <p className="font-bold text-sm ultrawide:text-[16px]">{testimonial.name}</p>
                 </div>
-              </a>
-            </div>
+              </div>
+            </a>
           ))}
         </div>
       </div>
