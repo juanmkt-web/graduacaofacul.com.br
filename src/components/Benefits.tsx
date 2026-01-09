@@ -27,7 +27,7 @@ const Benefits = () => {
     <section className="benefits-section">
       <div className="container mx-auto px-3 md:px-4">
         <div className="benefits-card relative overflow-hidden rounded-xl md:rounded-3xl shadow-2xl">
-          <div className="px-3 py-5 md:px-8 md:py-16 relative z-10">
+          <div className="benefits-content relative z-10">
             <div className="benefits-grid">
               {/* Left side - Main Title */}
               <div className="animate-fade-in text-center md:text-left">

@@ -232,9 +232,37 @@ All colors MUST be HSL.
   background-position: left bottom, right top, center;
 }
 
+.benefits-content {
+  padding: 1.25rem 1rem;
+}
+
+@media (min-width: 640px) {
+  .benefits-content {
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .benefits-content {
+    padding: 3rem 2.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .benefits-content {
+    padding: 4rem 3.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .benefits-content {
+    padding: 4rem 5rem;
+  }
+}
+
 .benefits-grid {
   display: grid;
-  gap: 1rem;
+  gap: 1.5rem;
   align-items: center;
 }
 
@@ -247,6 +275,7 @@ All colors MUST be HSL.
 @media (min-width: 1024px) {
   .benefits-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4rem;
   }
 }
 
