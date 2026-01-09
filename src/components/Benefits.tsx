@@ -71,19 +71,16 @@ const Benefits = () => {
                   </div>
                 ))}
 
-                <div className="pt-3 md:pt-8">
+                <div className="pt-4 md:pt-8">
                   <a
                     href="https://www.fasuleducacional.edu.br/posgraduacao/cursos"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    <Button
-                      size="default"
-                      className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-xs md:text-base px-4 md:px-8 py-1.5 md:py-2 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
-                    >
+                    <button className="benefits-button">
                       COMECE SUA GRADUAÇÃO AGORA!
-                      <ArrowRight className="ml-1 md:ml-2 h-3 w-3 md:h-5 md:w-5" />
-                    </Button>
+                      <ArrowRight className="inline-block ml-2 h-4 w-4 md:h-5 md:w-5" />
+                    </button>
                   </a>
                 </div>
               </div>
