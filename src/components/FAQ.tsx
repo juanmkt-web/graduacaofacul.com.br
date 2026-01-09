@@ -1,9 +1,4 @@
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 
 const faqItems = [
   {
@@ -29,7 +24,7 @@ const faqItems = [
   {
     question: "Quais são as modalidades disponíveis?",
     answer:
-      "Oferecemos modalidades EaD (100% online) e semipresencial, proporcionando flexibilidade para atender às diferentes necessidades dos nossos alunos. Escolha a opção que melhor se adapta à sua rotina!",
+      "Oferecemos modalidades EaD e semipresencial, proporcionando flexibilidade para atender às diferentes necessidades dos nossos alunos. Escolha a opção que melhor se adapta à sua rotina!",
   },
 ];
 
@@ -40,12 +35,8 @@ const FAQ = () => {
         <div className="max-w-4xl mx-auto">
           {/* Header */}
           <div className="mb-10 text-center">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1E2842] mb-4">
-              PERGUNTAS FREQUENTES
-            </h2>
-            <p className="text-gray-600 text-lg">
-              Tire suas dúvidas sobre a Graduação EaD da FASUL
-            </p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1E2842] mb-4">PERGUNTAS FREQUENTES</h2>
+            <p className="text-gray-600 text-lg">Tire suas dúvidas sobre a Graduação EaD da FASUL</p>
           </div>
 
           {/* FAQ Accordion */}
@@ -59,9 +50,7 @@ const FAQ = () => {
                 <AccordionTrigger className="text-left text-[#1E2842] font-medium text-base md:text-lg hover:no-underline py-5">
                   {item.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-gray-600 text-base pb-5">
-                  {item.answer}
-                </AccordionContent>
+                <AccordionContent className="text-gray-600 text-base pb-5">{item.answer}</AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>
