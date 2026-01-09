@@ -40,7 +40,7 @@ const Faculty = () => {
       className="pt-12 md:pt-24 pb-16 md:pb-32 relative overflow-hidden"
       style={{
         background:
-          "linear-gradient(to top, hsl(230 75% 10%) 0%, hsl(215 70% 40%) 25%, hsl(230 80% 50%) 70%, hsl(213 97% 55%) 100%)",
+          "linear-gradient(to top, #041B4B 0%, #041B4B 30%, #0B5988 100%)",
       }}
     >
       <div className="absolute inset-0 bg-black/10"></div>
