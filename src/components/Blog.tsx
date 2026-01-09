@@ -15,7 +15,7 @@ const blogPosts = [
     views: "6821",
     comments: "0",
     likes: "418",
-    url: "#",
+    url: "https://www.fasulmg.com.br/post/mitos-e-verdades-sobre-o-ensino-a-distancia-da-fasul-como-funciona-e-suas-vantagens-para-sua-carreira/",
   },
   {
     title: "Guia Completo do Vestibular ao Diploma e Suas Oportunidades de Carreira",
@@ -26,7 +26,7 @@ const blogPosts = [
     views: "7534",
     comments: "0",
     likes: "502",
-    url: "#",
+    url: "https://www.fasulmg.com.br/post/guia-completo-do-vestibular-ao-diploma-e-suas-oportunidades-de-carreira/",
   },
   {
     title: "Não Estude no Escuro: Por Que Saber QUEM São Seus Professores Define o Valor do Seu Diploma FASUL",
@@ -37,7 +37,7 @@ const blogPosts = [
     views: "4987",
     comments: "0",
     likes: "311",
-    url: "#",
+    url: "https://www.fasulmg.com.br/post/nao-estude-no-escuro-por-que-saber-quem-sao-seus-professores-define-o-valor-do-seu-diploma-fasul/",
   },
   {
     title: "A Escolha Inteligente para o Seu Futuro com Nota Máxima no MEC e Preço Fixo no EaD",
@@ -48,7 +48,7 @@ const blogPosts = [
     views: "6210",
     comments: "0",
     likes: "387",
-    url: "#",
+    url: "https://www.fasulmg.com.br/post/a-escolha-inteligente-para-o-seu-futuro-com-nota-maxima-no-mec-e-preco-fixo-no-ead/",
   },
 ];
 
