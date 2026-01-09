@@ -1,33 +1,33 @@
 import { Quote } from "lucide-react";
-import robertaFoto from "@/assets/roberta-maia.png";
-import pauloFoto from "@/assets/paulo-silva.png";
-import joaoFoto from "@/assets/joao-lima.png";
+import laraFoto from "@/assets/lara-felix.png";
+import milenaFoto from "@/assets/milena-resende.png";
+import barbaraFoto from "@/assets/barbara-kelly.png";
 import { useState, useEffect } from "react";
 
 const testimonials = [
   {
     id: 1,
     quote:
-      "Eu tentava aprender programar vendo vídeo no YouTube, mas me perdia. O curso me deu o caminho certo, do básico ao avançado. No terceiro período já passei num processo seletivo. Hoje sou Dev Júnior, trabalho de casa e finalmente tenho um salário digno.",
-    name: "João Lima",
-    course: "Análise e Desenvolvimento de Sistemas",
-    photo: joaoFoto,
+      "Cursos bem estruturados e atualizados, com profissionais qualificados e atenciosos. A instituição oferece bom suporte ao aluno, infraestrutura adequada e grade curricular alinhada ao mercado. Recomendo!",
+    name: "Lara Felix Furtado",
+    photo: laraFoto,
+    url: "https://share.google/gHMXLtjp9UbEqSbdg",
   },
   {
     id: 2,
     quote:
-      "Eu trabalhava no administrativo, mas morria de medo de errar cálculo de férias e rescisão, porque a lei é complicada. A faculdade me deu segurança total na legislação trabalhista. Quando a vaga de Analista de RH abriu, eu estava pronta e fui a escolhida.",
-    name: "Roberta Maia",
-    course: "Gestão de Recursos Humanos",
-    photo: robertaFoto,
+      "Minha experiência com a FASUL foi incrível. Muitos diferenciais na prestação de serviços. Atendimento rápido e humanizado. Super recomendo!",
+    name: "Milena Resende Braga",
+    photo: milenaFoto,
+    url: "https://share.google/MHfGoDyvCFxkt6Y0S",
   },
   {
     id: 3,
     quote:
-      "Ser técnico é bom, mas tem um teto salarial. Eu queria subir de nível, parar de formatar máquina e começar a gerenciar projetos. A graduação em Gestão de TI mudou minha visão. Hoje converso de igual para igual com a diretoria e lidero toda a infraestrutura da empresa.",
-    name: "Paulo Silva",
-    course: "Gestão da Tecnologia da Informação",
-    photo: pauloFoto,
+      "Atendimento humanizado, equipe sempre disposta a solucionar dúvidas, eventuais problemas e uma plataforma de fácil acesso! Excelente!",
+    name: "Bárbara Kelly Ribeiro",
+    photo: barbaraFoto,
+    url: "https://share.google/eDb8ZvkB5qb6LDD66",
   },
 ];
 
@@ -86,7 +86,12 @@ const Testimonials = () => {
             <p className="text-base md:text-xl lg:text-2xl text-white mb-5 md:mb-8 leading-relaxed italic font-light">
               "{currentTestimonial.quote}"
             </p>
-            <div className="flex items-center gap-4 md:gap-6 border-t border-white/20 pt-5 md:pt-8">
+            <a
+              href={currentTestimonial.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 md:gap-6 border-t border-white/20 pt-5 md:pt-8 hover:opacity-80 transition-opacity"
+            >
               <img
                 src={currentTestimonial.photo}
                 alt={currentTestimonial.name}
@@ -94,9 +99,8 @@ const Testimonials = () => {
               />
               <div className="text-white">
                 <p className="font-bold text-lg md:text-xl">{currentTestimonial.name}</p>
-                <p className="text-xs md:text-sm opacity-90">{currentTestimonial.course}</p>
               </div>
-            </div>
+            </a>
           </div>
 
           <div className="flex justify-center gap-2 mt-6">
@@ -124,7 +128,12 @@ const Testimonials = () => {
               <p className="text-sm wide:text-[17px] ultrawide:text-[19px] text-white mb-4 ultrawide:mb-[18px] leading-relaxed italic font-light flex-grow">
                 "{testimonial.quote}"
               </p>
-              <div className="flex items-center gap-3 ultrawide:gap-[13px] border-t border-white/20 pt-4 ultrawide:pt-[18px]">
+              <a
+                href={testimonial.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 ultrawide:gap-[13px] border-t border-white/20 pt-4 ultrawide:pt-[18px] hover:opacity-80 transition-opacity"
+              >
                 <img
                   src={testimonial.photo}
                   alt={testimonial.name}
@@ -132,9 +141,8 @@ const Testimonials = () => {
                 />
                 <div className="text-white">
                   <p className="font-bold text-sm ultrawide:text-[16px]">{testimonial.name}</p>
-                  <p className="text-xs ultrawide:text-[13px] opacity-90">{testimonial.course}</p>
                 </div>
-              </div>
+              </a>
             </div>
           ))}
         </div>
