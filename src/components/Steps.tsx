@@ -25,7 +25,7 @@ const Steps = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-8 md:mb-16 animate-fade-in">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-3 md:mb-4">
-            Transforme sua carreira em <span className="gradient-text">3 passos simples</span>.
+            TRANSFORME SUA CARREIRA EM <span className="gradient-text">3 PASSOS SIMPLES</span>.
           </h2>
           <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto">
             O caminho para o sucesso profissional nunca foi tão acessível.
@@ -38,7 +38,7 @@ const Steps = () => {
               <div className="relative mb-4 md:mb-8">
                 <div className="w-24 h-24 md:w-36 md:h-36 gradient-animated rounded-full flex items-center justify-center mx-auto shadow-2xl relative z-10">
                   <step.icon className="h-10 w-10 md:h-16 md:w-16 text-white" strokeWidth={2.5} />
-                  <div className="absolute -top-3 -left-3 md:-top-5 md:-left-5 w-10 h-10 md:w-14 md:h-14 bg-accent rounded-full flex items-center justify-center text-white font-bold text-lg md:text-2xl border-2 md:border-4 border-white shadow-xl z-10">
+                  <div className="absolute -top-3 -left-3 md:-top-5 md:-left-5 w-10 h-10 md:w-14 md:h-14 bg-accent rounded-full flex items-center justify-center text-foreground font-bold text-lg md:text-2xl border-2 md:border-4 border-white shadow-xl z-10">
                     {index + 1}
                   </div>
                 </div>
