@@ -55,7 +55,7 @@ const Benefits = () => {
                 {benefits.map((benefit, index) => (
                   <div
                     key={index}
-                    className="flex items-center gap-2 md:gap-4 animate-fade-in ml-2 sm:ml-4 md:ml-6 lg:ml-8"
+                    className="flex items-center gap-2 md:gap-4 animate-fade-in ml-4 sm:ml-6 md:ml-10 lg:ml-14"
                     style={{
                       animationDelay: `${0.3 + index * 0.1}s`,
                     }}
@@ -71,7 +71,7 @@ const Benefits = () => {
                   </div>
                 ))}
 
-                <div className="pt-4 md:pt-8 ml-2 sm:ml-4 md:ml-6 lg:ml-8">
+                <div className="pt-4 md:pt-8 ml-4 sm:ml-6 md:ml-10 lg:ml-14">
                   <a
                     href="https://www.fasuleducacional.edu.br/posgraduacao/cursos"
                     target="_blank"
