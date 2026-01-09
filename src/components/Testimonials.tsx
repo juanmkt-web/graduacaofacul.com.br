@@ -65,7 +65,7 @@ const Testimonials = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-6 md:mb-12 animate-fade-in text-white">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4">
-            CARREIRAS QUE <span className="text-[#FF8C00] drop-shadow-[0_0_10px_rgba(255,140,0,0.5)]">DECOLARAM</span>.
+            CARREIRAS QUE <span className="text-[#F5A623]">DECOLARAM</span>.
           </h2>
           <p className="text-sm md:text-lg text-white/90 max-w-3xl mx-auto">
             Veja o que nossos alunos dizem sobre a experiência Fasul.
