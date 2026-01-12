@@ -95,7 +95,7 @@ const Faculty = () => {
                 <h3 className="text-white font-semibold text-sm md:text-base lg:text-lg mb-1 !leading-[1.15] transition-transform duration-300 group-hover:scale-105">
                   {professor.name}
                 </h3>
-                <span className="flex items-center gap-1 text-accent group-hover:text-accent/80 text-xs md:text-sm font-medium transition-colors underline underline-offset-2">
+                <span className="flex items-center gap-1 text-sky-400 group-hover:text-sky-300 text-xs md:text-sm font-medium transition-colors underline underline-offset-2">
                   <ExternalLink className="w-3 h-3" />
                   Currículo Lattes
                 </span>
