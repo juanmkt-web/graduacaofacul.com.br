@@ -297,9 +297,9 @@ const CourseCard = ({ course, index }: { course: Course; index: number }) => {
         {/* Pricing */}
         <div className="mb-4 mt-auto">
           <div className="flex items-center justify-between mb-1">
-            <p className="text-2xl font-bold text-primary">
+            <p className="text-2xl font-bold text-gray-900">
               {course.promoPrice}
-              <span className="text-base font-bold text-primary">/Mês</span>
+              <span className="text-base font-bold text-gray-900">/Mês</span>
             </p>
             <p className="text-gray-400 line-through text-sm">{course.regularPrice}/Mês</p>
           </div>
