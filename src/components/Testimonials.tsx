@@ -1,33 +1,30 @@
 import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
-import laraFoto from "@/assets/lara-felix.png";
-import milenaFoto from "@/assets/milena-resende.png";
-import barbaraFoto from "@/assets/barbara-kelly.png";
+import robertaFoto from "@/assets/roberta-maia.png";
+import pauloFoto from "@/assets/paulo-silva.png";
+import joaoFoto from "@/assets/joao-lima.png";
 import { useState, useEffect } from "react";
 
 const testimonials = [
   {
     id: 1,
     quote:
-      "Cursos bem estruturados e atualizados, com profissionais qualificados e atenciosos. A instituição oferece bom suporte ao aluno, infraestrutura adequada e grade curricular alinhada ao mercado. Recomendo!",
-    name: "Lara Felix Furtado",
-    photo: laraFoto,
-    url: "https://share.google/gHMXLtjp9UbEqSbdg",
+      "Eu tentava aprender programar vendo vídeo no YouTube, mas me perdia. O curso me deu o caminho certo, do básico ao avançado. No terceiro período já passei num processo seletivo. Hoje sou Dev Júnior, trabalho de casa e finalmente tenho um salário digno.",
+    name: "Roberta Maia",
+    photo: robertaFoto,
   },
   {
     id: 2,
     quote:
-      "Minha experiência com a FASUL foi incrível. Muitos diferenciais na prestação de serviços. Atendimento rápido e humanizado. Super recomendo!",
-    name: "Milena Resende Braga",
-    photo: milenaFoto,
-    url: "https://share.google/MHfGoDyvCFxkt6Y0S",
+      "Eu trabalhava no administrativo, mas morria de medo de errar cálculo de férias e rescisão, porque a lei é complicada. A faculdade me deu segurança total na legislação trabalhista. Quando a vaga de Analista de RH abriu, eu estava pronta e fui a escolhida.",
+    name: "Paulo Silva",
+    photo: pauloFoto,
   },
   {
     id: 3,
     quote:
-      "Atendimento humanizado, equipe sempre disposta a solucionar dúvidas, eventuais problemas e uma plataforma de fácil acesso! Excelente!",
-    name: "Bárbara Kelly Ribeiro",
-    photo: barbaraFoto,
-    url: "https://share.google/eDb8ZvkB5qb6LDD66",
+      "Ser técnico é bom, mas tem um teto salarial. Eu queria subir de nível, parar de formatar máquina e começar a gerenciar projetos. A graduação em Gestão de TI mudou minha visão. Hoje converso de igual para igual com a diretoria e lidero toda a infraestrutura da empresa.",
+    name: "João Lima",
+    photo: joaoFoto,
   },
 ];
 
@@ -96,11 +93,8 @@ const Testimonials = () => {
             <ChevronRight className="w-5 h-5 md:w-6 md:h-6 text-white/70" />
           </button>
 
-          <a
-            href={currentTestimonial.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="glass-effect rounded-2xl md:rounded-3xl p-5 md:p-8 lg:p-12 shadow-2xl animate-fade-in block hover:opacity-90 transition-opacity cursor-pointer mx-8 md:mx-12"
+          <div
+            className="glass-effect rounded-2xl md:rounded-3xl p-5 md:p-8 lg:p-12 shadow-2xl animate-fade-in block mx-8 md:mx-12"
             key={currentTestimonial.id}
           >
             <Quote className="h-8 w-8 md:h-12 md:w-12 text-cyan-light mb-3 md:mb-6" />
@@ -117,7 +111,7 @@ const Testimonials = () => {
                 <p className="font-bold text-lg md:text-xl">{currentTestimonial.name}</p>
               </div>
             </div>
-          </a>
+          </div>
 
           <div className="flex justify-center gap-2 mt-6">
             {testimonials.map((_, index) => (
@@ -136,12 +130,9 @@ const Testimonials = () => {
         {/* Grid de 3 cards para telas >= 1200px */}
         <div className="hidden desktop:grid grid-cols-3 gap-6 ultrawide:gap-7 max-w-7xl mx-auto">
           {testimonials.map((testimonial) => (
-            <a
+            <div
               key={testimonial.id}
-              href={testimonial.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="glass-effect rounded-2xl p-5 ultrawide:p-[22px] shadow-2xl animate-fade-in flex flex-col h-full hover:opacity-90 transition-opacity cursor-pointer"
+              className="glass-effect rounded-2xl p-5 ultrawide:p-[22px] shadow-2xl animate-fade-in flex flex-col h-full"
             >
               <Quote className="h-6 w-6 ultrawide:h-7 ultrawide:w-7 text-cyan-light mb-3 ultrawide:mb-[13px]" />
               <p className="text-sm wide:text-[17px] ultrawide:text-[19px] text-white mb-4 ultrawide:mb-[18px] leading-relaxed italic font-light flex-grow">
@@ -157,7 +148,7 @@ const Testimonials = () => {
                   <p className="font-bold text-sm ultrawide:text-[16px]">{testimonial.name}</p>
                 </div>
               </div>
-            </a>
+            </div>
           ))}
         </div>
       </div>
