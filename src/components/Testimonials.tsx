@@ -1,4 +1,4 @@
-import { Quote } from "lucide-react";
+import { Quote, ChevronLeft, ChevronRight } from "lucide-react";
 import laraFoto from "@/assets/lara-felix.png";
 import milenaFoto from "@/assets/milena-resende.png";
 import barbaraFoto from "@/assets/barbara-kelly.png";
@@ -74,15 +74,33 @@ const Testimonials = () => {
 
         {/* Carousel para telas menores que 1200px */}
         <div
-          className="max-w-4xl mx-auto block desktop:hidden"
+          className="max-w-4xl mx-auto block desktop:hidden relative"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
+          {/* Seta esquerda */}
+          <button
+            onClick={() => setCurrentIndex((prev) => (prev - 1 + testimonials.length) % testimonials.length)}
+            className="absolute left-0 md:-left-4 top-1/2 -translate-y-1/2 z-20 w-8 h-8 md:w-10 md:h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 transition-colors"
+            aria-label="Depoimento anterior"
+          >
+            <ChevronLeft className="w-5 h-5 md:w-6 md:h-6 text-white/70" />
+          </button>
+
+          {/* Seta direita */}
+          <button
+            onClick={() => setCurrentIndex((prev) => (prev + 1) % testimonials.length)}
+            className="absolute right-0 md:-right-4 top-1/2 -translate-y-1/2 z-20 w-8 h-8 md:w-10 md:h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-white/20 transition-colors"
+            aria-label="Próximo depoimento"
+          >
+            <ChevronRight className="w-5 h-5 md:w-6 md:h-6 text-white/70" />
+          </button>
+
           <a
             href={currentTestimonial.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="glass-effect rounded-2xl md:rounded-3xl p-5 md:p-8 lg:p-12 shadow-2xl animate-fade-in block hover:opacity-90 transition-opacity cursor-pointer"
+            className="glass-effect rounded-2xl md:rounded-3xl p-5 md:p-8 lg:p-12 shadow-2xl animate-fade-in block hover:opacity-90 transition-opacity cursor-pointer mx-8 md:mx-12"
             key={currentTestimonial.id}
           >
             <Quote className="h-8 w-8 md:h-12 md:w-12 text-cyan-light mb-3 md:mb-6" />
