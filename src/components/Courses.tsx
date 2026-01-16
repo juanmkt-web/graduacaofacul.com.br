@@ -79,7 +79,7 @@ const courses: Course[] = [
     modality: "SEMIPRESENCIAL",
     hours: "3.200 HORAS",
     semesters: "8 SEMESTRES",
-    promoPrice: "R$ 139,00",
+    promoPrice: "R$ 249,00",
     regularPrice: "R$ 329,00",
     isLaunchingSoon: true,
     image: cursoPedagogia,
