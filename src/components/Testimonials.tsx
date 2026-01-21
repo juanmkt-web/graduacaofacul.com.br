@@ -45,7 +45,7 @@ const Testimonials = () => {
   const currentTestimonial = testimonials[currentIndex];
 
   return (
-    <section id="depoimentos" className="py-12 md:py-24 desktop:pb-[116px] bg-[#1e2842] relative">
+    <section id="depoimentos" className="py-8 md:py-24 desktop:pb-[116px] bg-[#1e2842] relative">
       <div className="absolute bottom-0 left-0 right-0 h-10 md:h-16 lg:h-20 pointer-events-none">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -60,11 +60,11 @@ const Testimonials = () => {
         </svg>
       </div>
       <div className="container mx-auto px-4 relative z-10">
-        <div className="text-center mb-6 md:mb-12 animate-fade-in text-white">
-          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-2 md:mb-4">
+        <div className="text-center mb-4 md:mb-12 animate-fade-in text-white">
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-1 md:mb-4">
             CARREIRAS QUE <span className="text-[#F97A1F]">DECOLARAM</span>.
           </h2>
-          <p className="text-sm md:text-lg text-white/90 max-w-3xl mx-auto">
+          <p className="text-xs md:text-lg text-white/90 max-w-3xl mx-auto">
             Veja o que nossos alunos dizem sobre a experiência Fasul.
           </p>
         </div>

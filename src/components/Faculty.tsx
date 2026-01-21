@@ -37,7 +37,7 @@ const professors = [
 const Faculty = () => {
   return (
     <section
-      className="pt-12 md:pt-24 pb-16 md:pb-32 relative overflow-hidden"
+      className="pt-8 md:pt-24 pb-10 md:pb-32 relative overflow-hidden"
       style={{
         background:
           "linear-gradient(to top, #041B4B 0%, #041B4B 30%, #0B5988 100%)",
@@ -63,11 +63,11 @@ const Faculty = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           {/* Header */}
-          <div className="text-center mb-8 md:mb-12">
-            <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-4 md:mb-6">
+          <div className="text-center mb-4 md:mb-12">
+            <h2 className="text-xl md:text-4xl lg:text-5xl font-bold text-white mb-2 md:mb-6">
               CORPO DOCENTE DE EXCELÊNCIA
             </h2>
-            <p className="text-white/80 text-sm md:text-lg max-w-4xl mx-auto leading-relaxed">
+            <p className="text-white/80 text-xs md:text-lg max-w-4xl mx-auto leading-relaxed">
               Nosso corpo docente é formado por professores mestres e doutores
               com vasta experiência acadêmica e profissional, prontos para guiar
               você em sua jornada de aprendizado.
@@ -75,7 +75,7 @@ const Faculty = () => {
           </div>
 
           {/* Grid de Professores */}
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-6">
             {professors.map((professor, index) => (
               <a
                 key={index}
