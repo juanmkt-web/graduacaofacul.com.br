@@ -5,7 +5,7 @@ import heroBackground from "@/assets/hero-background.jpg";
 const Hero = () => {
   return (
     <section 
-      className="relative flex items-center overflow-hidden pt-[72px] pb-8 md:pt-[112px] md:pb-16"
+      className="relative flex items-center overflow-hidden pt-[72px] pb-4 md:pt-[112px] md:pb-16"
       style={{
         backgroundImage: `url(${heroBackground})`,
         backgroundSize: 'cover',
@@ -27,11 +27,11 @@ const Hero = () => {
         </svg>
       </div>
 
-      <div className="container mx-auto px-4 py-4 md:py-12 relative z-10">
-        <div className="max-w-2xl mb-6 md:mb-12">
+      <div className="container mx-auto px-4 py-2 md:py-12 relative z-10">
+        <div className="max-w-2xl mb-4 md:mb-12">
           <div className="text-white animate-fade-in text-center md:text-left">
             <h1
-              className="text-2xl md:text-4xl lg:text-5xl font-extrabold mb-4 md:mb-6 leading-tight"
+              className="text-2xl md:text-4xl lg:text-5xl font-extrabold mb-2 md:mb-6 leading-tight"
               style={{
                 textShadow: "2px 2px 8px rgba(0, 0, 0, 0.2)",
               }}
@@ -39,12 +39,12 @@ const Hero = () => {
               SEU CURRÍCULO<span className="text-primary"> POTENCIALIZADO</span> PELA INTELIGÊNCIA ARTIFICIAL.
             </h1>
 
-            <p className="text-base md:text-xl text-white/90 leading-relaxed mb-5 md:mb-8">
+            <p className="text-sm md:text-xl text-white/90 leading-relaxed mb-3 md:mb-8">
               Diplomas do passado não garantem mais vagas. Conquiste sua Graduação ágil com Certificação em IA e esteja
               pronto para o que as empresas realmente buscam hoje.
             </p>
 
-            <div className="mb-5 md:mb-8 flex justify-center md:justify-start">
+            <div className="mb-3 md:mb-8 flex justify-center md:justify-start">
               <a
                 href="https://www.fasuleducacional.edu.br/posgraduacao/cursos"
                 target="_blank"
@@ -59,7 +59,7 @@ const Hero = () => {
               </a>
             </div>
 
-            <div className="flex flex-row gap-3 md:gap-6 justify-center md:justify-start">
+            <div className="flex flex-row gap-2 md:gap-6 justify-center md:justify-start">
               <div className="flex items-center gap-1 md:gap-2">
                 <Award className="h-4 w-4 md:h-5 md:w-5 flex-shrink-0" />
                 <span className="text-xs md:text-sm font-medium">Diploma MEC</span>

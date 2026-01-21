@@ -261,21 +261,21 @@ const CourseCard = ({ course, index }: { course: Course; index: number }) => {
       </div>
 
       {/* Content */}
-      <div className="p-5 flex-1 flex flex-col">
+      <div className="p-3 md:p-5 flex-1 flex flex-col">
         {/* Highlight badge */}
         {course.highlight && (
-          <span className="inline-block bg-yellow-400 text-gray-900 text-[10px] font-bold px-3 py-1 rounded mb-2 w-fit">
+          <span className="inline-block bg-yellow-400 text-gray-900 text-[10px] font-bold px-3 py-1 rounded mb-1 md:mb-2 w-fit">
             {course.highlight}
           </span>
         )}
 
         {/* Title */}
-        <h3 className="text-lg lg:text-xl font-bold text-gray-900 mb-3 uppercase leading-tight min-h-[3rem]">
+        <h3 className="text-base lg:text-xl font-bold text-gray-900 mb-2 md:mb-3 uppercase leading-tight min-h-[2.5rem] md:min-h-[3rem]">
           {course.title}
         </h3>
 
         {/* Course Info Grid */}
-        <div className="grid grid-cols-2 gap-2 mb-4">
+        <div className="grid grid-cols-2 gap-1 md:gap-2 mb-2 md:mb-4">
           <div className="flex items-center gap-1.5 text-gray-600">
             <GraduationCap className="w-4 h-4 text-primary" />
             <span className="text-xs font-medium">{course.type}</span>
@@ -295,13 +295,13 @@ const CourseCard = ({ course, index }: { course: Course; index: number }) => {
         </div>
 
         {/* Pricing */}
-        <div className="mb-4 mt-auto">
+        <div className="mb-2 md:mb-4 mt-auto">
           <div className="flex items-center justify-between mb-1">
-            <p className="text-2xl font-bold text-gray-900">
+            <p className="text-xl md:text-2xl font-bold text-gray-900">
               {course.promoPrice}
-              <span className="text-base font-bold text-gray-900">/Mês</span>
+              <span className="text-sm md:text-base font-bold text-gray-900">/Mês</span>
             </p>
-            <p className="text-gray-400 line-through text-sm">{course.regularPrice}/Mês</p>
+            <p className="text-gray-400 line-through text-xs md:text-sm">{course.regularPrice}/Mês</p>
           </div>
           <span className="text-[10px] bg-gradient-to-r from-emerald-500 to-teal-400 text-white px-2 py-0.5 rounded font-semibold inline-block">
             ATÉ O FINAL DO CURSO
@@ -309,7 +309,7 @@ const CourseCard = ({ course, index }: { course: Course; index: number }) => {
         </div>
 
         {/* Actions */}
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center gap-2">
           <a
             href={course.url}
             target="_blank"
@@ -349,7 +349,7 @@ const Courses = () => {
   const hasMore = visibleCount < courses.length;
 
   return (
-    <section id="cursos" className="pb-24 gradient-animated relative">
+    <section id="cursos" className="pb-12 md:pb-24 gradient-animated relative">
       <div className="absolute top-0 left-0 right-0 h-10 md:h-16 lg:h-20">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -364,10 +364,10 @@ const Courses = () => {
         </svg>
       </div>
 
-      <div className="container mx-auto px-4 relative z-10 pt-16">
-        <div className="text-center mb-16 text-white animate-fade-in">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-6">ESCOLHA SUA GRADUAÇÃO</h2>
-          <p className="text-lg text-white/90 max-w-4xl mx-auto leading-relaxed">
+      <div className="container mx-auto px-4 relative z-10 pt-8 md:pt-16">
+        <div className="text-center mb-6 md:mb-16 text-white animate-fade-in">
+          <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-2 md:mb-6">ESCOLHA SUA GRADUAÇÃO</h2>
+          <p className="text-sm md:text-lg text-white/90 max-w-4xl mx-auto leading-relaxed">
             Dê o próximo passo na sua jornada acadêmica com quem é referência em Ensino. Conheça nossas opções de Cursos
             EAD e Semipresenciais feitos para se encaixar na sua rotina.
           </p>
