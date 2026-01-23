@@ -7,9 +7,9 @@ const faqItems = [
       "Nossos Cursos de Graduação têm duração a partir de 4 Semestres, dependendo da modalidade e área escolhida. Os Cursos tecnológicos geralmente são mais curtos, enquanto bacharelados e licenciaturas podem ter durações maiores.",
   },
   {
-    question: "O diploma é reconhecido pelo MEC?",
+    question: "O Diploma é reconhecido pelo MEC?",
     answer:
-      "Sim! A FASUL é uma Instituição com nota 5 no MEC, a nota máxima de avaliação. Todos os nossos diplomas são reconhecidos nacionalmente e têm a mesma validade de Cursos presenciais.",
+      "Sim! A FASUL é uma Instituição com nota 5 no MEC, a nota máxima de avaliação. Todos os nossos Diplomas são reconhecidos nacionalmente e têm a mesma validade de Cursos presenciais.",
   },
   {
     question: "Quais são as formas de pagamento disponíveis?",
