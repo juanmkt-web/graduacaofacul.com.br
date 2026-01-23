@@ -39,8 +39,7 @@ const Faculty = () => {
     <section
       className="pt-8 md:pt-24 pb-10 md:pb-32 relative overflow-hidden"
       style={{
-        background:
-          "linear-gradient(to top, #041B4B 0%, #041B4B 30%, #0B5988 100%)",
+        background: "linear-gradient(to top, #041B4B 0%, #041B4B 30%, #0B5988 100%)",
       }}
     >
       <div className="absolute inset-0 bg-black/10"></div>
@@ -68,9 +67,8 @@ const Faculty = () => {
               CORPO DOCENTE DE EXCELÊNCIA
             </h2>
             <p className="text-white/80 text-xs md:text-lg max-w-4xl mx-auto leading-relaxed">
-              Nosso corpo docente é formado por professores mestres e doutores
-              com vasta experiência acadêmica e profissional, prontos para guiar
-              você em sua jornada de aprendizado.
+              Nosso Corpo Docente é formado por Professores Mestres e Doutores com vasta experiência acadêmica e
+              profissional, prontos para guiar você em sua jornada de aprendizado.
             </p>
           </div>
 
